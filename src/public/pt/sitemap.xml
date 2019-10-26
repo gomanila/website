@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://example.com/pt/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -33,37 +32,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/pt/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://example.com/pl/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://example.com/de/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>https://example.com/pt/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,7 +62,6 @@
   
   <url>
     <loc>https://example.com/pt/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

@@ -1,36 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/blog/2019.10.rsvp/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/blog/2019.09.meetup/</loc>
-    <lastmod>2019-09-23T20:04:36+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/blog/2019.08.meetup/</loc>
-    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/announcement/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/blog/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://example.com/categories/</loc>
-    <priority>0</priority>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -59,38 +48,8 @@
   </url>
   
   <url>
-    <loc>https://example.com/contact/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://example.com/fr/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://example.com/pl/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://example.com/de/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://example.com/pt/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://example.com/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>https://example.com/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -119,8 +78,41 @@
   </url>
   
   <url>
+    <loc>https://example.com/categories/meetup/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/rsvp/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/2019.10.rsvp/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/2019.09.meetup/</loc>
+    <lastmod>2019-09-23T20:04:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/video/</loc>
+    <lastmod>2019-09-23T20:04:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/blog/2019.08.meetup/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.com/contact/</loc>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -146,30 +138,6 @@
                 hreflang="en"
                 href="https://example.com/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/announcement/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/meetup/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/rsvp/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/video/</loc>
-    <lastmod>2019-09-23T20:04:36+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
