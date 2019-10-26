@@ -1,4 +1,4 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://www.gomanila.org/"
 DefaultContentLanguage  = "en"
 title                   = "GoManila"
 theme                   = "hugo-future-imperfect-slim"
