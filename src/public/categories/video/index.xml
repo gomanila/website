@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>video on GoManila</title>
-    <link>https://example.com/categories/video/</link>
+    <link>https://www.gomanila.org/categories/video/</link>
     <description>Recent content in video on GoManila</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 23 Sep 2019 20:04:36 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/categories/video/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.gomanila.org/categories/video/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GoManila Mondays! - 09.19 meetup</title>
-      <link>https://example.com/blog/2019.09.meetup/</link>
+      <link>https://www.gomanila.org/blog/2019.09.meetup/</link>
       <pubDate>Mon, 23 Sep 2019 20:04:36 +0000</pubDate>
       
-      <guid>https://example.com/blog/2019.09.meetup/</guid>
+      <guid>https://www.gomanila.org/blog/2019.09.meetup/</guid>
       <description>This month we had Andre Marcelo-Tanner, Senior Site Reliability Engineer at Ada Support Inc; and Johnny Estilles, Regional Director of Engineering at Freelancer.com.
 Andre talked about devising a single way to leverage Go to develop, deploy and monitor applications. Johnny explored the different usecases of Websockets in the context of the Go programming language.
   If the video is not showing up, please visit this link instead </description>
@@ -24,10 +24,10 @@ Andre talked about devising a single way to leverage Go to develop, deploy and m
     
     <item>
       <title>GoManila - 08.19 meetup</title>
-      <link>https://example.com/blog/2019.08.meetup/</link>
+      <link>https://www.gomanila.org/blog/2019.08.meetup/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/blog/2019.08.meetup/</guid>
+      <guid>https://www.gomanila.org/blog/2019.08.meetup/</guid>
       <description>This August we had Gin Galang, Python Developer at Willis Towers Watson; and Jorick Caberio, Software Engineer at Voyager Innovations Inc.
 Gin talked about building blockchain using Go and how it can benefit you, while Jorick shared how to implement a GSM protocol to send and receive SMS using Go.
   If the video is not showing up, please visit this link instead </description>
