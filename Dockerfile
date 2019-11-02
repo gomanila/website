@@ -7,7 +7,7 @@ MAINTAINER Charo Nuguid <me@thegeekettespeaketh.com>
 # 	&& rm hugo_extended_0.59.0_Linux-64bit.deb
 
 # Used for Alpine
-RUN apk add --no-cache git
+RUN apk add --update --no-cache git openssh
 #
 RUN wget https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_extended_0.59.1_Linux-64bit.tar.gz \
     && mkdir hugo_0.59.1 \
@@ -15,4 +15,3 @@ RUN wget https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_extende
     && cd hugo_0.59.1/ \
     && mv hugo /bin/ \
     && cd .. && rm -rf hugo*
-
