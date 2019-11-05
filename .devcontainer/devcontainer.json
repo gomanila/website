@@ -11,8 +11,10 @@
 
 	// The optional 'runArgs' property can be used to specify additional runtime arguments.
 	"runArgs": [
+		"--rm",
 		// Uncomment the next line to use Docker from inside the container. See https://aka.ms/vscode-remote/samples/docker-in-docker for details.
 		// "-v","/var/run/docker.sock:/var/run/docker.sock",
+		"-v", "${env:HOME}${env:USERPROFILE}/.ssh:/root/.ssh-localhost:ro"
 
 		// Uncomment the next line if you will be using a ptrace-based debugger like C++, Go, and Rust.
 		// "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"
@@ -37,6 +39,7 @@
 
 	// Uncomment the next line to run commands after the container is created - for example installing git.
 	// "postCreateCommand": "apt-get update && apt-get install -y git",
+	"postCreateCommand": "mkdir -p /root/.ssh && cp -r /root/.ssh-localhost/* /root/.ssh && chmod 700 /root/.ssh && chmod 600 /root/.ssh/*"
 
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": []
